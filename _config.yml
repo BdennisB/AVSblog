@@ -22,9 +22,9 @@ author: Dennis Boeynaems
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Azure VMware Solutions intro: "https://learn.microsoft.com/en-us/azure/azure-vmware/introduction"
+    - Whats new: "https://learn.microsoft.com/en-us/azure/azure-vmware/azure-vmware-solution-platform-updates"
+  
 
 ################
 # --- Logo --- #
