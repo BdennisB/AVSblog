@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Who's this guy
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Dennis Boeynaems and I live and breath the following stuff:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Data center technologies
+- Cloud migrations
+- Azure VMware Solutions
 
 What else do you need?
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I have 30+ years experience related to all levels of the modern datacenter, network, storage (IBM, EMC, HP), pSeries (yes I worked on IBM SP2 and RS/6000) as well as VMware (of course), containers, serverless, etc.
