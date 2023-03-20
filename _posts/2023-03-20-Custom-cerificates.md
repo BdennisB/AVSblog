@@ -22,7 +22,7 @@ Lets first check and make sure we are in a custom certificate landscape
 
 In the vCenter client select the vcenter itself, in configure/settings/advanced settings look up
 
-### vpxd.certmgmt.mode
+#### _vpxd.certmgmt.mode_
 
 if this is set to custom then the ESXi cluster ONLY works with on-prem/customer Certificate Authority signed certificates.
 
@@ -38,7 +38,7 @@ Before doing this, check if this is not going to generate issues as switching it
 
 THis is the only clean solution as it will get a signed cert by the CA you want to use (same CA as the one setup in vCenter)
 
-Here's how you do that:
+Here's how you do that :
 
 ssh into HCX connector as admin.  As a reminder you deployed the HCX connector on premise and set the password for this user yourself
 
@@ -46,4 +46,6 @@ ssh into HCX connector as admin.  As a reminder you deployed the HCX connector o
 | prompt> list | This will provide you with a list of all of the appliances the connector sees |
 | prompt> go 0 | The IX appliance |
 | prompt> ssh | Drop into the IX appliance itself |
-| prompt> cd /etc/vmware/ssl | cd into this directory where the self signed certs are |
+| prompt> cd /etc/vmware/ssl          | cd into this directory where the self signed certs are |
+<br>
+Lets move the existing certs out of the way.  These are the self signed certs that were created at deployment time
