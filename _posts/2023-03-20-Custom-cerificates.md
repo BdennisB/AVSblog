@@ -5,6 +5,7 @@ share-title: HCX
 subtitle: Impact on deploying HCX service mesh
 tags: [AVS, HCX, service mesh]
 ---
+
 # HCX service mesh
 ## Custom certificates
 During HCX service mesh creation one of the steps in there is to deploy the HCX MA or mobility agent on the IX appliance (interconnector).  This is normally part of the service mesh deployment itself and doesnt require any additional action from your part.
