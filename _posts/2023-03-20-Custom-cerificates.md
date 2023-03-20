@@ -1,16 +1,18 @@
 ---
 layout: post
 title: Custom certificates
-share-title: HCX
+share-title: HCX service mesh
 subtitle: Impact on deploying HCX service mesh
 tags: [AVS, HCX, service mesh]
 ---
 
-# HCX service mesh
-## Custom certificates
-During HCX service mesh creation one of the steps in there is to deploy the HCX MA or mobility agent on the IX appliance (interconnector).  This is normally part of the service mesh deployment itself and doesnt require any additional action from your part.
 
-In a standard deployment, one without customer CA backed certificates the MA gets deployed to the IX appliance as part of the service mesh creatinon.
+
+## Custom certificates
+
+During HCX service mesh creation one of the steps in there is to deploy the HCX MA or mobility agent on the IX appliance (interconnector).  This is normally part of the service mesh deployment itself and doesn't require any additional action from your part.
+
+In a standard deployment, one without customer CA backed certificates the MA gets deployed to the IX appliance as part of the service mesh creation.
 If and when your on-prem ESXi cluster is setup using **custom certificates** however, as it is considered a host in the on-premise ESXi clusterlandscape it needs to therefore authenticate using a host certificate signed by the on-premise CA or Certificate Authority.
 
 Looking for clues the error message pointing in that direction
@@ -20,7 +22,7 @@ Looking for clues the error message pointing in that direction
 {: .box-note}
 **Note:** Unable to deploy MA agent
 
-If you have verified ports open between IX and connector (check the diagram) then most likely your on-prem environment works with on-prem/custom a Certificate Authority.  In order for the IX appliance to be allowed to join a custom certificate validated envirionment it will have to be equiped with a suitable certificate.
+If you have verified ports open between IX and connector (check the diagram) then most likely your on-prem environment works with on-prem/custom a Certificate Authority.  In order for the IX appliance to be allowed to join a custom certificate validated environment it will have to be equipped with a suitable certificate.
 
 Lets first check and make sure we are in a custom certificate landscape
 
@@ -34,7 +36,7 @@ In order to continue working with those you will need to drop the CA and the cer
 
 There's two solutions to work with this however:
 
-## switching from custome to thumbprint
+## switching from customer to thumbprint
 
 Before doing this, check if this is not going to generate issues as switching it to thumbprint will basically remove all validity cert checks.  It will simply check to see if there's a certificate but will not validate it
 
