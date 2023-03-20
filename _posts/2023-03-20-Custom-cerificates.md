@@ -6,8 +6,6 @@ subtitle: Impact on deploying HCX service mesh
 tags: [AVS, HCX, service mesh]
 ---
 
-
-
 ## Custom certificates
 
 During HCX service mesh creation one of the steps in there is to deploy the HCX MA or mobility agent on the IX appliance (interconnector).  This is normally part of the service mesh deployment itself and doesn't require any additional action from your part.
@@ -16,8 +14,6 @@ In a standard deployment, one without customer CA backed certificates the MA get
 If and when your on-prem ESXi cluster is setup using **custom certificates** however, as it is considered a host in the on-premise ESXi clusterlandscape it needs to therefore authenticate using a host certificate signed by the on-premise CA or Certificate Authority.
 
 Looking for clues the error message pointing in that direction
-
-### Notification
 
 {: .box-note}
 **Note:** Unable to deploy MA agent
@@ -28,7 +24,7 @@ Lets first check and make sure we are in a custom certificate landscape
 
 In the vCenter client select the vcenter itself, in configure/settings/advanced settings look up
 
-#### vpxd.certmgmt.mode
+### vpxd.certmgmt.mode
 
 if this is set to custom then the ESXi cluster ONLY works with on-prem/customer Certificate Authority signed certificates.
 
