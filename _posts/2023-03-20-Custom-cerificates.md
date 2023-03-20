@@ -42,8 +42,8 @@ Here's how you do that:
 
 ssh into HCX connector as admin.  As a reminder you deployed the HCX connector on premise and set the password for this user yourself
 
-| ccli |
-| list | his will provide you with a list of all of the appliances the connector sees |
-| go 0 | The IX appliance |
-| ssh | Drop into the IX appliance itself |
-| cd /etc/vmware/ssl | cd into this directory where the self signed certs are |
+| prompt> ccli |
+| prompt> list | This will provide you with a list of all of the appliances the connector sees |
+| prompt> go 0 | The IX appliance |
+| prompt> ssh | Drop into the IX appliance itself |
+| prompt> cd /etc/vmware/ssl | cd into this directory where the self signed certs are |
