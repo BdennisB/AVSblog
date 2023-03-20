@@ -46,6 +46,6 @@ ssh into HCX connector as admin.  As a reminder you deployed the HCX connector o
 | list | This will provide you with a list of all of the appliances the connector sees |
 | go 0 | The IX appliance |
 | ssh | Drop into the IX appliance itself |
-| cd /etc/vmware/ssl | cd into this directory where the self signed certs are |
+| cd /etc/vmware/ssl | cd into this directory |
 
 Lets move the existing certs out of the way.  These are the self signed certs that were created at deployment time.
