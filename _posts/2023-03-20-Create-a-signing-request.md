@@ -10,32 +10,8 @@ This file will be used as input for the actual signing request.  Copy/paste this
 
 *Important* make sure you have openssl installed onto the VM where you will be doing this
 
+<img title="a title" alt="Alt text" src="/assets/img/screen1.jpg">
 
-
-
-*[req]*
-*distinguished_name = req_distinguished_name*
-*req_extensions = v3_req*
-*prompt = no*
-
-*[req_distinguished_name]*
-*C = BE*
-*ST = Brussels Lan*
-*L = Brussels*
-*O = Microsoft*
-*OU = Azure*
-*CN = server.domain1.be*
-
-*[v3_req]*
-*keyUsage = keyEncipherment, dataEncipherment*
-*extendedKeyUsage = serverAuth*
-*subjectAltName = @alt_names*
-
-*[alt_names]*
-*IP.1 = 192.168.01.01*
-*IP.2 = 192.168.01.02*
-*DNS.1 = serveralt_1.domain1.be*
-*DNS.2 = serveralt_2.domain1.be*
 
 Issue the certificate signing request or CSR
 
