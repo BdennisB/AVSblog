@@ -13,7 +13,6 @@ This file will be used as input for the actual signing request.  Copy/paste this
 
 <img title="a title" alt="Alt text" src="/AVSblog/assets/img/screen2.jpg" width=400 height="500">
 
-
 Issue the certificate signing request or CSR
 
 *openssl req -newkey rsa:2048 -keyout new.key -out new.csr -config new.conf -nodes*
@@ -31,11 +30,5 @@ Once signed and you have the option make sure to download the files in base64 fo
 To create a PEM file containing all relevant info, if needed:
 
 *cat signed_cert.crt new.key cacerts.crt > multi_part_new.pem*
-
-
-
-
-
-
 
 T
