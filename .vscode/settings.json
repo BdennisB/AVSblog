@@ -4,6 +4,7 @@
         "certmgmt",
         "clusterlandscape",
         "interconnector",
+        "mobilityagent",
         "vpxd"
     ]
 }
