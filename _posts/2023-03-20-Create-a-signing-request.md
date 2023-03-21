@@ -10,7 +10,7 @@ This file will be used as input for the actual signing request.  Copy/paste this
 
 *Important* make sure you have openssl installed onto the VM where you will be doing this
 
-<img title="a title" alt="Alt text" src="/assets/img/screen1.jpg">
+<img title="a title" alt="Alt text" src="assets/img/screen1.jpg">
 
 
 Issue the certificate signing request or CSR
