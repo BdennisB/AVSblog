@@ -49,3 +49,21 @@ ssh into HCX connector as admin.  As a reminder you deployed the HCX connector o
 | cd /etc/vmware/ssl | cd into this directory |
 
 Lets move the existing certs out of the way.  These are the self signed certs that were created at deployment time.
+
+*mv rui.cert rui.cert.bak*
+<br />
+*mv rui.key rui.key.bak*
+
+Issue a certificate signing request and have it signed by your on-prem CA.  (please see the appropriate article on my blog for help)
+
+Move the certs in place (rui.cert and rui.key) in the /etc/vmware/ssl folder
+
+lets restart the appropriate services 
+
+*stc restart mobilityagent*
+*stc restart authdlauncher*
+
+Resync the service mesh at this time in the HCX connector
+
+{: .box-warning}
+**attention:** Please make sure to copy the CA and intermediate certs!

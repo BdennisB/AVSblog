@@ -10,6 +10,9 @@ This file will be used as input for the actual signing request.  Copy/paste this
 
 *Important* make sure you have openssl installed onto the VM where you will be doing this
 
+
+
+
 *[req]*
 *distinguished_name = req_distinguished_name*
 *req_extensions = v3_req*
@@ -46,7 +49,7 @@ once done - lets now verify this to make sure there's no errors
 
 send the csr file (new.csr) to have it signed by your internal PKI (CA).  Make sure you tell them about the SAN names and/or one or multiple IPs.
 
-Once signed and you have the option make sure to download the files in base64 format.  You will be sent, root CA including (if any) intermadiate certs
+Once signed and you have the option make sure to download the files in base64 format.  You will be sent, root CA including (if any) intermediate certs
 
 To create a PEM file containing all relevant info, if needed:
 
