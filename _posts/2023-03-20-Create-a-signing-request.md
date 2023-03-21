@@ -1,4 +1,10 @@
-## create a configuration file
+---
+layout: post
+title: Create a certificate signing request
+share-title: HCX service mesh
+subtitle: Working with customer certs on ESXi
+tags: [AVS, HCX, service mesh]
+---
 
 This file will be used as input for the actual signing request.  Copy/paste this into a file called new.conf
 
