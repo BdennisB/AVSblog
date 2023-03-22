@@ -5,24 +5,21 @@ subtitle: Who's this guy
 ---
 
 
-<div class="square">
-        <div> <img style="float:left;margin 20px 10px 10px 20px" src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
-</div>
-<br>My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
-<br>
-<div style="padding-left: 60px;">
+
+| ![face](/AVSblog/assets/img/IMG_9409.jpg) |
+<p> My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
+
 <ul>
     <li>Data center technologies</li>  
     <li>Cloud migrations</li>
     <li>Azure VMware Solutions</li>
 </ul>
-</div>
+</p> |
 <br>
 <br>
 <br>
 <br>
 <br>
-</div>
 
 ### My story
 
