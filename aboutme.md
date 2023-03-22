@@ -5,12 +5,12 @@ subtitle: Who's this guy
 ---
 
 
-| [<img src="/AVSblog/assets/img/IMG_9409.jpg" width="180" height="220"/>](/AVSblog/assets/img/IMG_9409.jpg) |My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
+| [<img src="/AVSblog/assets/img/IMG_9409.jpg" width="180" height="220"/>](/AVSblog/assets/img/IMG_9409.jpg) | My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
 <ul>
     <li>Data center technologies</li>  
     <li>Cloud migrations</li>
     <li>Azure VMware Solutions</li>
-</ul>|
+</ul> |
 
 <br>
 <br>
