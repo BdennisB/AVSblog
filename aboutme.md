@@ -18,7 +18,7 @@ subtitle: Who's this guy
 </div>
 <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things 
 <br>
-<div style="padding-left: 40px";>
+<div style="padding-left: 40px;">
 <ul>
     <li>Data center technologies</li>  
     <li>Cloud migrations</li>
