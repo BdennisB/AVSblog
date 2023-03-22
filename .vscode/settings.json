@@ -1,13 +1,16 @@
 {
     "cSpell.words": [
         "Boeynaems",
+        "cacerts",
         "ccli",
         "certmgmt",
         "clusterlandscape",
         "datacenter",
         "interconnector",
+        "keyout",
         "mobilityagent",
         "newkey",
+        "noout",
         "SDDC",
         "vpxd"
     ],

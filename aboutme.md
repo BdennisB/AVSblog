@@ -5,7 +5,7 @@ subtitle: Who's this guy
 ---
 
 
-[<img src="https://bdennisb.github.io/AVSblog/assets/img/IMG_9409.jpg" width="180" height="220"/>](/AVSblog/assets/img/IMG_9409.jpg)<br>
+[<img src="https://bdennisb.github.io/AVSblog/assets/img/IMG_9409.jpg" width="180" height="220"/>](https://bdennisb.github.io/AVSblog/assets/img/IMG_9409.jpg)<br>
 <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
 <ul>
     <li>Data center technologies</li>  
