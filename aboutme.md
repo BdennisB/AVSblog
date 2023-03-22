@@ -4,6 +4,7 @@ title: About me
 subtitle: Who's this guy
 ---
 
+<img title="me" alt="me" src="/AVSblog/assets/img/IMG_9409.jpg" width=200 height="300">
 My name is Dennis Boeynaems and I live and breath the following stuff:
 
 - Data center technologies

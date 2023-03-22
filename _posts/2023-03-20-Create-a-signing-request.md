@@ -11,7 +11,7 @@ This file will be used as input for the actual signing request.  Copy/paste this
 {: .box-note}
 **Note:** make sure you have openssl installed onto the VM where you will be doing this
 
-<img title="a title" alt="Alt text" src="/AVSblog/assets/img/screen2.jpg" width=400 height="500">
+<img title="CSR config" alt="CSR config" src="/AVSblog/assets/img/screen2.jpg" width=400 height="500">
 
 Issue the certificate signing request or CSR
 
