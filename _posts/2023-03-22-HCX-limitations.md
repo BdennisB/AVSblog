@@ -15,4 +15,4 @@ Replication Assisted VMotion allows for a maximum of 200 VMs to be moved.  Offse
 
 Obviously this means that with 200 max VMs per mesh and a 300 max VMs per Manager you can either setup a 200 and 100 VMs capability in parallel or you will have to cut down on the number of VMs you can migrate at the same time per mesh.  A 50 max VM eg = 6 service meshes to be setup side by side migrating in parallel.
 
-Minimum bandwidth is 100Mbps to be able to do vMotion. 
+Minimum bandwidth is 100Mbps to be able to do vMotion.
