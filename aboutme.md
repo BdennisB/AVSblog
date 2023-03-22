@@ -5,7 +5,7 @@ subtitle: Who's this guy
 ---
 
 
-| [<img_src="/AVSblog/assets/img/IMG_9409.jpg" width="180" height="220"/>](/AVSblog/assets/img/IMG_9409.jpg) |
+| [<img src="/AVSblog/assets/img/IMG_9409.jpg" width="180" height="220"/>](/AVSblog/assets/img/IMG_9409.jpg) |
 <p> My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
 
 <ul>
