@@ -67,3 +67,6 @@ Resync the service mesh at this time in the HCX connector
 
 {: .box-warning}
 **attention:** Please make sure to copy the CA and intermediate certs!
+
+Also worth mentioning is that even if the mobility agent fails to deploy the service mesh will still build and will still allow for bulk migration to complete.
+The main reason as to why this is is because bulk uses the NE active appliance pair to migrate across.  You need the IX fully functioning to migrate using RAV and/or vMotion.
