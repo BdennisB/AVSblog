@@ -15,14 +15,13 @@ subtitle: Who's this guy
     <div>
       <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
     </div>
-    <p>
     <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
     <br> 
     <div>
-    <ul>
-    <li>Data center technologies</li>  
-    <li>Cloud migrations</li>
-    <li>Azure VMware Solutions</li>
+        <ul>
+        <li>Data center technologies</li>  
+        <li>Cloud migrations</li>
+        <li>Azure VMware Solutions</li>
     </ul>
     </div>
     <br>
@@ -30,7 +29,6 @@ subtitle: Who's this guy
     <br>
     <br>
     <br>
-    </p> 
 </div>
 
 
