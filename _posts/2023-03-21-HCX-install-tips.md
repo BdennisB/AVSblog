@@ -49,4 +49,4 @@ Every service mesh created between a connector and an AVS manager.  In essence t
  {: .box-note}
 **Note:**  Keep in mind NE HA.  If you want to increase resilience on the NE appliance pairs you can by activating HA.  THis effectively means creating 2 NE appliance pairs.  One tunnel being the active one, the other one the standard.  THis will **reduce** the amount of VLANs you are allowed to stretch/service mesh.  Keep in mind the **TEN** appliance max count.
 
-Check https://configmax.esp.vmware.com/ for the latest on the limits.
+Check <https://configmax.esp.vmware.com/> for the latest on the limits.
