@@ -3,7 +3,7 @@ layout: post
 title: HCX
 share-title: HCX install tips
 subtitle: HCX recommendations setting it up
-tags: [AVS, HCX, service mesh]
+tags: [AVS, HCX, profiles]
 ---
 The HCX connector appliance is I think worth a little bit of attention.  
 Often overlooked and quickly dismissed it is a vital touch point in the entire setup.  Troubleshooting it therefore, to at least get a feel of how it is behaving could be a usefuly thing to learn about.

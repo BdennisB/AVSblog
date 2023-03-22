@@ -3,7 +3,7 @@ layout: post
 title: HCX connector
 share-title: HCX connector
 subtitle: Setting it up, tips and tricks
-tags: [AVS, HCX, service mesh]
+tags: [AVS, HCX, vmotion]
 ---
 
 ## firewall
