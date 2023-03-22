@@ -14,7 +14,7 @@ subtitle: Who's this guy
 </head>
 
 <div class="square">
-        <div> <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220" float=left margin=10px>
+        <div> <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220" float=left margin=50px>
 </div>
 <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things: <br>
 <br>
