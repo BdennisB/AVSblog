@@ -9,6 +9,9 @@ subtitle: Who's this guy
       border: 10px;
       float: left;
     }
+    ul {
+      padding-left: 10;
+    }
 </style>
 
 <div class="square">
@@ -18,7 +21,7 @@ subtitle: Who's this guy
     <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
     <br> 
     <div>
-        <ul>
+    <ul>
         <li>Data center technologies</li>  
         <li>Cloud migrations</li>
         <li>Azure VMware Solutions</li>
