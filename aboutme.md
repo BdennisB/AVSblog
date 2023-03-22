@@ -6,7 +6,7 @@ subtitle: Who's this guy
  <style type="text/css">
     img {
       margin: 5px;
-      border: 10px;
+      border: 50px;
       float: left;
     }
     ul {
