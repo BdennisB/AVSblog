@@ -10,7 +10,7 @@ subtitle: Who's this guy
     <li>Data center technologies</li>  
     <li>Cloud migrations</li>
     <li>Azure VMware Solutions</li>
-</ul>
+</ul>|
 
 <br>
 <br>
