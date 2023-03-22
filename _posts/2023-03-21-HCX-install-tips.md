@@ -2,7 +2,7 @@
 layout: post
 title: HCX
 share-title: HCX install tips
-subtitle: HCX recommndations setting it up
+subtitle: HCX recommendations setting it up
 tags: [AVS, HCX, service mesh]
 ---
 The HCX connector appliance is I think worth a little bit of attention.  
