@@ -15,7 +15,7 @@ subtitle: Who's this guy
       <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
     </div>
     <p>
-    My name is Dennis Boeynaems and I live and breath these things </br> 
+    My name is Dennis Boeynaems and I live and breath these things <br> 
     - Data center technologies </br>  
     - Cloud migrations</br></br>
     - Azure VMware SolutionsYour Text comes here...</br></br>    
