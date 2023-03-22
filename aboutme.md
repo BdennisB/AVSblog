@@ -5,17 +5,17 @@ subtitle: Who's this guy
 ---
  <style type="text/css">
     img {
-      margin: 10px;
+      margin: 15px;
       float: left;
     }
 </style>
 
 <div class="square">
     <div>
-      <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220" style="border-radius:50%">
+      <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220" style="border:3px">
     </div>
     <p>
-    <br>My name is Dennis Boeynaems and I live and breath these things <br> 
+    <br>My name is Dennis Boeynaems and I live and breath these things <br><br> 
     - Data center technologies <br>  
     - Cloud migrations<br>
     - Azure VMware SolutionsYour Text comes here...<br>
