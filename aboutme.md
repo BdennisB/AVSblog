@@ -16,7 +16,7 @@ subtitle: Who's this guy
       <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
     </div>
     <p>
-    My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
+    <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
     <br> 
     - Data center technologies <br>  
     - Cloud migrations<br>
@@ -35,7 +35,7 @@ subtitle: Who's this guy
 
 
 
-What else do you need?
+
 
 ### My story
 
