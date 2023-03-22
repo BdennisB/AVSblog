@@ -3,6 +3,8 @@ layout: page
 title: About me
 subtitle: Who's this guy
 ---
+<html>
+<head>
  <style type="text/css">
     img {
       margin: 5px;
@@ -13,6 +15,7 @@ subtitle: Who's this guy
       padding-left: 40px;
     }
 </style>
+</head>
 <body>
 <div class="square">
     <div>
@@ -34,7 +37,7 @@ subtitle: Who's this guy
     <br>
 </div>
 </body>
-
+</html>
 
 
 
