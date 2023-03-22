@@ -38,3 +38,15 @@ I always create 2 at the very minimum and use management for uplink.  Ensure you
 ## compute profile
 
 All our new (March 2023) SDDCs come with enterprise HCX activated by default.  There is no need to therefore raise an SR again as it was the case before.  Because of this you will see Replication Assisted vMotion selectable when you go through the motions of setting up the compute profile
+
+## limits
+
+Every service mesh created between a connector and an AVS manager.  In essence therefore between an on-prem vCenter and an AVS SDDC needs to take into account the following:
+- **ONE** IX/WO appliance
+- Up to **TEN** NE appliance pairs.  This means a maximum of 80 VLANs can be supported by **ONE** service mesh.
+- ONE AVS SDDC supports up to **TEN** service meshes meaning we can 'link up' so to speak 10 source vCenters with one AVS SDDC
+
+ {: .box-note}
+**Note:**  Keep in mind NE HA.  If you want to increase resilience on the NE appliance pairs you can by activating HA.  THis effectively means creating 2 NE appliance pairs.  One tunnel being the active one, the other one the standard.  THis will **reduce** the amount of VLANs you are allowed to stretch/service mesh.  Keep in mind the **TEN** appliance max count.
+
+Check https://configmax.esp.vmware.com/ for the latest on the limits.
