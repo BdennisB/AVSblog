@@ -6,7 +6,7 @@ subtitle: Who's this guy
  <style type="text/css">
     img {
       margin: 5px;
-      border: 5px;
+      border: 10px;
       float: left;
     }
 </style>
@@ -15,7 +15,7 @@ subtitle: Who's this guy
     <div>
       <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
     </div>
-    <p
+    <p>
     My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
     <br> 
     - Data center technologies <br>  
