@@ -6,6 +6,9 @@ subtitle: Working with customer certs on ESXi
 tags: [AVS, HCX, service mesh]
 ---
 
+{: .box-note}
+**Note:** Only do this if you need a custom CA backed certificate and your on-premise hosts are only allowed in so to speak when they have certs signed by a customer CA
+
 This file will be used as input for the actual signing request.  Copy/paste this into a file called new.conf
 
 {: .box-note}
