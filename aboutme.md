@@ -18,9 +18,11 @@ subtitle: Who's this guy
     <p>
     <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
     <br> 
-    - Data center technologies <br>  
-    - Cloud migrations<br>
-    - Azure VMware Solutions<br>
+    <ul>
+    <li>Data center technologies</li> <br>  
+    <li>Cloud migrations</li><br>
+    <li>Azure VMware Solutions</li><br>
+    </ul>
     <br>
     <br>
     <br>
