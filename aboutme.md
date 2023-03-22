@@ -5,7 +5,7 @@ subtitle: Who's this guy
 ---
  <style type="text/css">
     img {
-      margin: auto;
+      margin: 5px;
       float: left;
     }
 </style>
@@ -15,10 +15,12 @@ subtitle: Who's this guy
       <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
     </div>
     <p>
-    My name is Dennis Boeynaems and I live and breath
-    - Data center technologies
-    - Cloud migrations
-    - Azure VMware SolutionsYour Text comes here...     
+    My name is Dennis Boeynaems and I live and breath:<br/><br/>
+
+    - Data center technologies <br/><br/>
+    - Cloud migrations <br/><br/>
+    - Azure VMware SolutionsYour Text comes here... <br/><br/>    
+
     </p> 
 </div>
 
