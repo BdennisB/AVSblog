@@ -14,12 +14,12 @@ subtitle: Who's this guy
     <div>
       <img src="/AVSblog/assets/img/IMG_9409.jpg" alt="who, me?" width="180" height="220">
     </div>
-    <p>
-    <br>  My name is **Dennis Boeynaems** and I live and breath these things <br>
+    <p text-indent: 10px;>
+    <br>My name is <b>Dennis Boeynaems</b> and I live and breath these things <br>
     <br> 
-      - Data center technologies <br>  
-      - Cloud migrations<br>
-      - Azure VMware SolutionsYour Text comes here...<br>
+    - Data center technologies <br>  
+    - Cloud migrations<br>
+    - Azure VMware Solutions<br>
     <br>
     <br>
     <br>
