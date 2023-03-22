@@ -12,7 +12,7 @@ subtitle: Who's this guy
 
 <div class="square">
     <div>
-      <img src="/AVSblog/assets/img/IMG_9409.jpg" border:1px colour:solid black alt="who, me?" width="180" height="220">
+      <img src="/AVSblog/assets/img/IMG_9409.jpg" style='border: 1px solid black" alt="who, me?" width="180" height="220">
     </div>
     <p>
     <br>My name is Dennis Boeynaems and I live and breath these things <br> 
