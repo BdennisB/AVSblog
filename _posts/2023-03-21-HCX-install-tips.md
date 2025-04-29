@@ -31,6 +31,7 @@ Once you have established the HCX plugin is correctly installed on the vCenter o
 ## network profile
 
 I always create 2 at the very minimum and use management for uplink.  Ensure you have at least 4 IPs (as per our checklist), 2 in vMotion and 2 in Management.  IF you have a dedicated replication network, ensure you have an IP in there as well to create a separate profile for it.
+The IX appliance (1 per each service mesh btw) uses the network that it will belong to to commmunicate with vcenter, nsx manager, NTP and DNS.  In case you want to therefore use a seperate network please make sure this network can route to the networks where these services are in.  
 
 {: .box-note}
 **Note:**  IF you want to replicate your VMs across using Replicated Assisted vMotion ensure your vMotion network is exposed on the VDS!  If you are not planning on using this facility you can also opt to expose it on the VSS (if still in use)
