@@ -6,3 +6,16 @@ subtitle: HCX compute profile notes
 tags: [AVS, HCX, profiles]
 last_modified_at:   2025-04-30 09:19:00 +0000
 ---
+The HCX compute profile is where we define the operating context of the IX appliance pair.
+We have to therefore specify here, along with other operating conditions such as datastore, services etc which networks this appliance on the connector side needs to connect to!
+
+{: .box-note}
+**Note:**  if you have NSX-T on-premise, please ensure you know which TZ you will want to connect to
+
+# networks
+As mentioned before we will need to make sure to specify correctly which networks we have to deal with.  THe management, vmotion and if required replication networks as well as the TZ if NSX-T is present
+* VDS
+* TZ
+
+{: .box-warning}
+**Warning:** For NSX-T the recommendation is to only specify the TZ where the VLANs (or segments) are you will want to stretch or dip into in general migrating VMsfrom
