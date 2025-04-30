@@ -18,7 +18,7 @@ As part of the HCX activation/setup phase you need to work through the following
 Lets zoom in on the SSO part.  If you are not using the vsphere.local domain here.  Please make sure you specify the user preceeded by its FQDN.  Don't use the netbios name but fully qualify it.
 
 {: .box-warning}
-**Warning:** If you have a proxy requirement here, please check one of the other posts on this blog for more info as it requires proxy exclusions to be set here
+**Warning:** If you have a proxy requirement here, please check one of the other posts on this blog for more info as it requires proxy exclusions to be set!
 
 With all of that in place prior to either restarting the connector or resarting the services individually, which can be done from the admin part of the HCX connector itself btw please ensure you have the following handy
 
@@ -31,8 +31,9 @@ Once you have established the HCX plugin is correctly installed on the vCenter o
 
 ## network profile
 
-I always create 2 at the very minimum and use management for uplink.  Ensure you have at least 4 IPs (as per our checklist), 2 in vMotion and 2 in Management.  IF you have a dedicated replication network, ensure you have an IP in there as well to create a separate profile for it.
-The IX appliance (1 per each service mesh btw) uses the network that it will belong to to commmunicate with vcenter, nsx manager, NTP and DNS.  In case you want to therefore use a seperate network please make sure this network can route to the networks where these services are in.  
+I always create 2 at the very minimum and use management for uplink.  Ensure you have at least 4 IPs (as per our checklist), 2 in vMotion and 2 in Management.  
+If you have a dedicated replication network, ensure you have an IP in there as well to create a separate profile for it.
+The IX appliance (1 per each service mesh btw) uses the network that it will belong to to commmunicate with vcenter, nsx manager, NTP and DNS.  In case you therefore want to use a seperate network please make sure it can route to the networks where these services are in.  
 
 {: .box-note}
 **Note:**  IF you want to replicate your VMs across using Replicated Assisted vMotion ensure your vMotion network is exposed on the VDS!  If you are not planning on using this facility you can also opt to expose it on the VSS (if still in use)
